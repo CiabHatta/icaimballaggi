@@ -67,8 +67,24 @@ a {
 }
 
 @font-face {
-    font-family: "Utopia";
-    src: url("../fonts/Utopia.ttf");
+    font-family: 'utopiaregular';
+    src: url('utopia-regular-webfont.woff2') format('woff2'),
+         url('utopia-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'utopiaregular';
+    src: url('utopia-webfont.woff2') format('woff2'),
+         url('utopia-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .solution-block {
@@ -84,7 +100,7 @@ a {
 }
 
 .main-font {
-    font-family: "Utopia";
+    font-family: "utopiaregular";
     
 }
 
