@@ -589,7 +589,7 @@ a {
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
     .btn-primary {
-        font-size: 18px;
+        font-size: 16px;
     }
     .slider-cont {
         display: none;
