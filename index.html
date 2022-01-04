@@ -355,6 +355,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="swiper-scrollbar custom-swiper-scrollbar"></div>    
             </div>
         </div>
     </div>
@@ -446,17 +447,12 @@
 
         <div class="col-md-6 text-center" >
             
-            <div class="card-body">
-                <div class="d-flex align-items-center justify-content-center mg-bt-20p safecellar flex-column">
-                    <h3 style="margin-bottom: 20px;" class="card-title text-center">Safecellar <span style="font-size: 14px; vertical-align: text-top;"></span></h3>
-                    <picture >
-                        <source media="(min-width: 768px)" srcset="static/img/products/safecellar_montaggio.png">
-                        <img src="static/img/products/safecellar_montaggio_r.png" alt="..." class="card-img-top">
-                    </picture>
-                </div>
-                
-                
-
+            <div class="card-body solution-block">
+                <h3 style="margin-bottom: 20px;" class="card-title text-center">Safecellar <span style="font-size: 14px; vertical-align: text-top;"></span></h3>
+                <picture >
+                    <source media="(min-width: 768px)" srcset="static/img/products/safecellar_montaggio.png">
+                    <img src="static/img/products/safecellar_montaggio_r.png" alt="..." class="card-img-top">
+                </picture>
                 <h4 class="card-text fw-300"">Spedizione sicura, montaggio veloce. <br> Adatto a tutte le bottiglie.</h4>
                 <p style="margin-top: 20px;">Scopri di più sul <a><b><u>Safecellar</u></b></a></p>
 
@@ -465,14 +461,14 @@
         </div>
         <div class="col-md-6 text-center">
             
-            <div class="card-body">
+            <div class="card-body solution-block">
                 <h3 style="margin-bottom: 20px;" class="card-title text-center">Keyes</h3>
                 <picture >
                     <source media="(min-width: 768px)" srcset="static/img/products/keyes.png">
                     <img src="static/img/products/keyes_r.png" alt="..." class="card-img-top">
                 </picture>
                 <h4 class="card-text fw-300"">L'alternativa elegante agli alveari <br> in cartone.</h4>
-                <p style="margin-top: 30px;">Scopri di più sul <a><b><u>Keyes</u></b></a></p>
+                <p style="margin-top: 20px;">Scopri di più sul <a><b><u>Keyes</u></b></a></p>
 
             </div>
         </div>
@@ -685,6 +681,10 @@
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
+        },
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            draggable: true,
         },
       });
 

@@ -56,9 +56,25 @@ a {
      
 }
 
+.s-nav {
+    color: #2D4858;
+}
+
+.custom-swiper-scrollbar {
+    position: inherit !important;
+    margin-top: 20px;
+    bottom: 0;
+}
+
 @font-face {
     font-family: "Utopia";
     src: url("../fonts/Utopia.ttf");
+}
+
+.solution-block {
+    border-radius: 4px;
+    background-color: #D8D8D8;
+    padding: 8%;
 }
 
 .header-col {
@@ -552,6 +568,13 @@ a {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
+
+
+    .solution-block {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10%;
+    }
 
     .safecellar {
         flex-direction: column;
