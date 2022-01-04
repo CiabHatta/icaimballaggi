@@ -99,22 +99,22 @@
 
 
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#richiesti-anchor">Soluzioni</a>
+            <a onclick="toggleNavbar('close')" class="nav-link link-mobile active" aria-current="page" href="#richiesti-anchor">Soluzioni</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link link-mobile" href="#progettazione-anchor">Progettazione</a>
+            <a onclick="toggleNavbar('close')" class="nav-link link-mobile" href="#progettazione-anchor">Progettazione</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link link-mobile" target="_blank" href="https://rapidpack.it/">Rapidpack</a>
+            <a onclick="toggleNavbar('close')" class="nav-link link-mobile" target="_blank" href="https://rapidpack.it/">Rapidpack</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link link-mobile" href="#certificazioni-anchor">Certificazioni</a>
+            <a onclick="toggleNavbar('close')" class="nav-link link-mobile" href="#certificazioni-anchor">Certificazioni</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link link-mobile" target="_blank" href="https://blog.rapidpack.it/">Blog</a>
+            <a onclick="toggleNavbar('close')" class="nav-link link-mobile" target="_blank" href="https://blog.rapidpack.it/">Blog</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link link-mobile" href="#contatti-anchor">Contatti</a>
+            <a onclick="toggleNavbar('close')" class="nav-link link-mobile" href="#contatti-anchor">Contatti</a>
         </li>
     </ul>
 </div>
@@ -772,7 +772,9 @@
 
 <script>
 
-    window.onscroll = function() {scrollFunction()};
+
+
+window.onscroll = function() {scrollFunction()};
 
 const animateCSS = (element, animation, prefix = 'animate__') =>
   // We create a Promise and return it
@@ -813,7 +815,6 @@ const animateCSS = (element, animation, prefix = 'animate__') =>
         
     }
 
-
 </script>   
 
 <script>
@@ -838,6 +839,7 @@ const animateCSS = (element, animation, prefix = 'animate__') =>
         window.scrollTo(0, 0);
     }
 </script>
+
 
 </body>
 </html>
