@@ -594,10 +594,6 @@ a {
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
-    .digital-division-img{
-        width: 300px; 
-        border: 8px solid white;
-    }
 
     .service-card {
         padding: 12px;
@@ -642,6 +638,13 @@ a {
     }
     p {
         font-size: 15px!important;
+    }
+
+    .digital-division-img{
+        top: 60px;
+        width: 400px; 
+        position: relative;
+        right: 0;
     }
 
 }
