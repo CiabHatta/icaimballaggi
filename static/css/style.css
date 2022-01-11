@@ -76,7 +76,10 @@ a {
 }
 
 
-
+.digital-division-img{
+    width: 600px; 
+    border: 12px solid white;
+}
 
 @font-face {
     font-family: 'utopiaregular';
@@ -424,7 +427,7 @@ a {
     position: absolute;
     text-align: right;
     top: -120px;
-    left: 0;
+    right: 13%;
     z-index: 10;
 
 }
@@ -581,13 +584,82 @@ a {
     }
 
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {}
+@media only screen and (max-width: 959px) {
+
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .digital-division-img{
+        width: 300px; 
+        border: 8px solid white;
+    }
+
+    .service-card {
+        padding: 12px;
+    }
+
+    .balance-mg {
+
+        margin-left: -60px; 
+        margin-right: -60px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .pd-cont {
+
+        padding-left: 60px; 
+        padding-right: 60px;
+    }
+    
+    .header-bg {
+        margin-left: -60px;
+        margin-right: -60px;
+        margin-top: -140px;
+        min-height: 100vh !important;
+        padding: 60px;
+        margin-bottom: -100px;
+        background-attachment: fixed;
+        
+    }
+    
+    h1 {
+        font-size: 40px !important;
+    }
+    h2 {
+        font-size: 30px !important;
+    }
+    h3 {
+        font-size: 26px !important;
+    }
+    h4 {
+        font-size: 20px !important;
+    }
+    p {
+        font-size: 15px!important;
+    }
+
+}
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+}
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
+
+    .digital-division-img{
+        width: 100%; 
+        border: 0;
+        right: unset;
+    }
     .btn-primary {
         font-size: 16px;
     }
@@ -646,7 +718,12 @@ a {
         padding-top: 100%;
         margin-bottom: 80px;
         background-attachment: scroll;
+
+        
     }
+
+
+
 
     #header-logo {
         flex: 1;
@@ -822,6 +899,7 @@ a {
 
     
     }
+    
     .h-video {
 
         height: 200px;
