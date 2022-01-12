@@ -118,6 +118,22 @@
         </li>
     </ul>
 </div>
+
+<div id='loader-wrap'>
+    <div id='loader'>
+        <div class='loader-block'>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+        </div>
+    </div>
+</div>
+
 <div style="display: block; padding-top: 140px !important;" class="container-fluid h80 box-siz pd-cont">
     <div class="row header-row  header-bg"">
         <div class="col-md-6">
@@ -771,6 +787,12 @@
 <script>
 
 
+window.onload = function() {
+    
+    animateCSS('#loader-wrap', 'fadeOut').then((message) => {
+        document.querySelector("#loader-wrap").style.display = "none";
+    });
+};
 
 window.onscroll = function() {scrollFunction()};
 
