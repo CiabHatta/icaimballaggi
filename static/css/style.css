@@ -77,7 +77,8 @@ a {
 
 
 .digital-division-img{
-    width: 80%; 
+    width: 70%; 
+    box-shadow: 0px -4px 12px rgba(80, 76, 76, 0.137);
 }
 
 @font-face {
@@ -640,10 +641,11 @@ a {
     }
 
     .digital-division-img{
-        top: 60px;
+        top: 0;
         width: 400px; 
         position: relative;
         right: 0;
+        box-shadow: unset;
     }
 
 }
@@ -661,6 +663,7 @@ a {
         width: 100%; 
         border: 0;
         right: unset;
+        box-shadow: unset;
     }
     .btn-primary {
         font-size: 16px;
