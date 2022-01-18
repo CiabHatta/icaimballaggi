@@ -1038,7 +1038,7 @@ a {
         flex-direction: column-reverse;
         text-align: center;
         background-size: cover;
-        
+        background-attachment:scroll;
         
     }
 
