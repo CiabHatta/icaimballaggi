@@ -1037,6 +1037,8 @@ a {
     .green-section {
         flex-direction: column-reverse;
         text-align: center;
+        background-size: cover;
+        
         
     }
 
