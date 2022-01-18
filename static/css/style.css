@@ -8,28 +8,7 @@ body {
     margin: 0;
 }
 
-@font-face {
-    font-family: 'utopiaregular';
-    src: url('../fonts/utopia-regular-webfont.woff2') format('woff2'),
-         url('../fonts/utopia-regular-webfont.woff') format('woff');
-    font-weight: normal; 
-    font-style: normal;
-    font-weight: 700; 
-     
-}
-@font-face {
-    font-family: 'utopiaregular';
-    src: url('../fonts/utopia-webfont.woff2') format('woff2'),
-         url('../fonts/utopia-webfont.woff') format('woff');
-    font-weight: 700; 
-    font-style: normal;
 
-}
-
-.main-font {
-    font-family: "utopiaregular";
-    
-}
 
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
@@ -37,24 +16,20 @@ h1,h2,h3,h4,h5,h6,p {
 
 h1 {
     font-size: 64px !important;
-    font-family: "utopiaregular";
+    font-family: "Utopia";
 }
 h2 {
     font-size: 48px !important;
-    font-family: "utopiaregular";
-    font-weight: 600;
+    font-family: "Utopia";
 }
 h3 {
     font-size: 38px!important;
     font-family: 'Open Sans', sans-serif !important;
-    font-weight: 600;
-    
 
 }
 h4 {
     font-size: 34px !important;
     font-family: 'Open Sans', sans-serif !important;
-    font-weight: 600;
 }
 h5 {
     font-size: 26px !important;
@@ -217,6 +192,21 @@ a {
     background-color: #2D4858 !important;
 }
 
+.bullet {
+    min-width: 30px;
+    min-height: 30px;
+    background-color: #2D4858;
+    margin-right: 10px;
+}
+
+@font-face {
+    font-family: 'utopiaregular';
+    src: url('utopia-regular-webfont.woff2') format('woff2'),
+         url('utopia-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 .digital-division-img{
@@ -224,6 +214,14 @@ a {
     /*box-shadow: 0px -4px 12px rgba(80, 76, 76, 0.137);*/
 }
 
+@font-face {
+    font-family: 'utopiaregular';
+    src: url('utopia-webfont.woff2') format('woff2'),
+         url('utopia-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 .solution-block {
     padding-left: 10%;
@@ -235,6 +233,10 @@ a {
     padding-right: inherit;
 }
 
+.main-font {
+    font-family: "utopiaregular";
+    
+}
 
 .navbar-nav {
     width: 100%;
@@ -695,7 +697,7 @@ a {
   }
 
   .rapidpack-logo {
-      width: 25%;
+      width: 40%;
       margin-top: 20px;
       margin-bottom: 40px;
   }
