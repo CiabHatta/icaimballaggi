@@ -193,6 +193,10 @@ a {
     bottom: 0;
 }
 
+.swiper-scrollbar-drag{
+    background-color: #2D4858 !important;
+}
+
 @font-face {
     font-family: 'utopiaregular';
     src: url('utopia-regular-webfont.woff2') format('woff2'),
