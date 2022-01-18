@@ -8,7 +8,17 @@ body {
     margin: 0;
 }
 
-
+@supports ( -webkit-touch-callout : none) {
+    .selector {
+    background-attachment:scroll
+    }
+    }
+    
+@supports not ( -webkit-touch-callout : none) {
+    .selector {
+    background-attachment: fixed;
+    }
+}
 
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
