@@ -12,19 +12,18 @@ body {
     font-family: 'utopiaregular';
     src: url('utopia-regular-webfont.woff2') format('woff2'),
          url('utopia-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
 @font-face {
     font-family: 'utopiaregular';
     src: url('utopia-webfont.woff2') format('woff2'),
          url('utopia-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
 }
 
+.main-font {
+    font-family: "utopiaregular";
+    
+}
 
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
@@ -32,12 +31,12 @@ h1,h2,h3,h4,h5,h6,p {
 
 h1 {
     font-size: 64px !important;
-    font-family: "Utopia";
+    font-family: "utopiaregular";
     font-weight: 700;
 }
 h2 {
     font-size: 48px !important;
-    font-family: "Utopia";
+    font-family: "utopiaregular";
     font-weight: 600;
 }
 h3 {
@@ -231,10 +230,6 @@ a {
     padding-right: inherit;
 }
 
-.main-font {
-    font-family: "utopiaregular";
-    
-}
 
 .navbar-nav {
     width: 100%;
