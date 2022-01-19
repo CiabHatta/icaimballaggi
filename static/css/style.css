@@ -235,9 +235,9 @@ a {
 
 
 
-.solution-block {
-    padding-left: 10%;
-    padding-right: 10%;
+.solution-section {
+    padding-left: 20% !important;
+    padding-right: 20% !important;
 }
 
 .header-col {
@@ -737,9 +737,9 @@ a {
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
-    .solution-block {
-        padding-left: 2%;
-        padding-right: 2%;
+    .solution-section {
+        padding-left: 6% !important;
+        padding-right: 6% !important;
     }
 
     .service-card {
@@ -832,9 +832,9 @@ a {
         align-items: flex-end;
     }
 
-    .solution-block {
-        padding-left: 0;
-        padding-right: 0;
+    .solution-section {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
     }
 
     .safecellar {
