@@ -1,0 +1,1146 @@
+1632126094907	geckodriver	INFO	Listening on 127.0.0.1:62657
+1632126097978	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofileySmbur"
+1632126098345	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileySmbur\\search.json.mozlz4", (void 0)))
+1632126100493	Marionette	INFO	Listening on port 62666
+1632126100622	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632126104984	Marionette	INFO	Stopped listening on port 62666
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NSconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileYY7k7d\\search.json.mozlz4", (void 0)))
+1632126106301	Marionette	INFO	Listening on port 62717
+1632126106825	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632126107425	Marionette	INFO	Stopped listening on port 62717
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1632126134971	geckodriver	INFO	Listening on 127.0.0.1:55483
+1632126138038	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofilea8e8Ut"
+1632126138363	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilea8e8Ut\\search.json.mozlz4", (void 0)))
+1632126140389	Marionette	INFO	Listening on port 65162
+1632126140716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632126144184	Marionette	INFO	Stopped listening on port 65162
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1632126201351	geckodriver	INFO	Listening on 127.0.0.1:54831
+1632126204432	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofileu9hLwW"
+1632126204782	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileu9hLwW\\search.json.mozlz4", (void 0)))
+1632126206960	Marionette	INFO	Listening on port 62490
+1632126207099	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632126577699	Marionette	INFO	Stopped listening on port 62490
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilekBJiAQ\\search.json.mozlz4", (void 0)))
+1632126430612	Marionette	INFO	Listening on port 64221
+1632126430974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632126576832	Marionette	INFO	Stopped listening on port 64221
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileDkezr2\\search.json.mozlz4", (void 0)))
+1632126472280	Marionette	INFO	Listening on port 59919
+1632126472788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632126575402	Marionette	INFO	Stopped listening on port 59919
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileFrUuFz\\search.json.mozlz4", (void 0)))
+1632126570413	Marionette	INFO	Listening on port 56207
+1632126570762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632126574606	Marionette	INFO	Stopped listening on port 56207
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrom1632126574762	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofile1TLTdW\\search.json.mozlz4", (void 0)))
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1632126579574	geckodriver	INFO	Listening on 127.0.0.1:59902
+1632126582625	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofilelRSZL6"
+1632126582978	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilelRSZL6\\search.json.mozlz4", (void 0)))
+1632126585056	Marionette	INFO	Listening on port 52774
+1632126585326	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1632127600910	Marionette	INFO	Stopped listening on port 52774
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1632127600906	Marionette	INFO	Stopped listening on port 58935
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1632127601085	Marionette	INFO	Stopped listening on port 58582
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1632127600915	Marionette	INFO	Stopped listening on port 56744
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+e installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1632127600906	Marionette	INFO	Stopped listening on port 56994
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1632127600992	Marionette	INFO	Stopped listening on port 61574
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1632127600897	Marionette	INFO	Stopped listening on port 50946
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1632127600911	Marionette	INFO	Stopped listening on port 59584
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ No addons in our list are installed.
+1632127600900	Marionette	INFO	Stopped listening on port 50981
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1632127600899	Marionette	INFO	Stopped listening on port 49634
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+te errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1632127600910	Marionette	INFO	Stopped listening on port 62129
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ozprofileevJTRx\\search.json.mozlz4", (void 0)))
+1632127524881	Marionette	INFO	Listening on port 51841
+1632127525166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632127600890	Marionette	INFO	Stopped listening on port 51841
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel clconsole.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofile230sNB\\search.json.mozlz4", (void 0)))
+1632127603116	Marionette	INFO	Listening on port 52188
+1632127603417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+tings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilebLpPHu\\search.json.mozlz4", (void 0)))
+1632127654533	Marionette	INFO	Listening on port 59677
+1632127654664	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilebLpPHu\bookmarkbackups\bookmarks-2021-09-21_11_3uNA+ack6rXGBC-dFKBr6g==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+rch.json.mozlz4", (void 0)))
+1632127679420	Marionette	INFO	Listening on port 53023
+1632127679703	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilenzhkeK\bookmarkbackups\bookmarks-2021-09-21_11_k28CemSZF7v3TtJRUEKa7g==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+rch.json.mozlz4", (void 0)))
+1632127743708	Marionette	INFO	Listening on port 60318
+1632127743945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileIVRfkA\bookmarkbackups\bookmarks-2021-09-21_11_HHFHCk0U4xp25hfQK3ktfQ==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+632127767576	Marionette	INFO	Listening on port 53821
+1632127767765	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileOLC7gN\bookmarkbackups\bookmarks-2021-09-23_11_-jmFj0IXBwRsD28Q23oDYw==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+632127786066	Marionette	INFO	Listening on port 49800
+1632127786360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileWVk3Fr\\search.json.mozlz4", (void 0)))
+1632127838818	Marionette	INFO	Listening on port 58613
+1632127838924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileWVk3Fr\bookmarkbackups\bookmarks-2021-09-20_11_JNX9n4SfmPkbc8B8kPpzjw==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+632127853823	Marionette	INFO	Listening on port 62340
+1632127854043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileMCYgI0\bookmarkbackups\bookmarks-2021-09-20_11_QQx+UR9qF7X9e7brIg4fcA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+632128164921	Marionette	INFO	Listening on port 56538
+1632128165140	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileZvawWr\\search.json.mozlz4", (void 0)))
+1632128191149	Marionette	INFO	Listening on port 49829
+1632128191256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileZvawWr\bookmarkbackups\bookmarks-2021-09-23_11_9zzy0+Pv-Ovis0Nbrudjhw==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileZvawWr\bookmarkbackups\bookmarks-2021-09-23_11_9zzy0+Pv-Ovis0Nbrudjhw==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+2129360771	Marionette	INFO	Listening on port 54689
+1632129361085	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilexbtwyU\bookmarkbackups\bookmarks-2021-09-21_11_PO8Ij-tHjFLjYosWLux22Q==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+1633507055462	geckodriver	INFO	Listening on 127.0.0.1:55620
+1633507058540	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofileFqq9X8"
+*** You are running in headless mode.
+1633507059136	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileFqq9X8\\search.json.mozlz4", (void 0)))
+1633507060480	Marionette	INFO	Listening on port 55628
+1633507060623	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1633523287265	Marionette	INFO	Stopped listening on port 55628
+[Parent 832, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1633523285231	Marionette	INFO	Stopped listening on port 55694
+[Parent 12132, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+lz4", (void 0)))
+1633507433795	Marionette	INFO	Listening on port 50250
+1633507434166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1633523290046	Marionette	INFO	Stopped listening on port 50250
+[Parent 19360, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+n the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilegNKypV\\search.json.mozlz4", (void 0)))
+1633508424871	Marionette	INFO	Listening on port 64489
+1633508425064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390145,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1633523281962	Marionette	INFO	Stopped listening on port 64489
+[Parent 18348, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635156040579	geckodriver	INFO	Listening on 127.0.0.1:51083
+1635156043596	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofilem1PO0V"
+*** You are running in headless mode.
+1635156043995	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilem1PO0V\\search.json.mozlz4", (void 0)))
+1635156045149	Marionette	INFO	Listening on port 51094
+1635156045639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilem1PO0V\bookmarkbackups\bookmarks-2021-10-26_11_laMTvhMxpk5vgfW1tuLCVw==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+sa\\AppData\\Local\\Temp\\rust_mozprofilemuH02v\\search.json.mozlz4", (void 0)))
+1635156054182	Marionette	INFO	Listening on port 51171
+1635156054387	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilemuH02v\bookmarkbackups\bookmarks-2021-10-25_11_B4BzWeFmRnbOgknXRL7Prg==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+sa\\AppData\\Local\\Temp\\rust_mozprofileIAj0ao\\search.json.mozlz4", (void 0)))
+1635156153979	Marionette	INFO	Listening on port 51412
+1635156154213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+rionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilercrleW\\search.json.mozlz4", (void 0)))
+1635156160149	Marionette	INFO	Listening on port 51537
+1635156160434	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofilenCaToL"
+*** You are running in headless mode.
+1635157968925	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilenCaToL\\search.json.mozlz4", (void 0)))
+1635157969850	Marionette	INFO	Listening on port 61779
+1635157970167	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilenCaToL\bookmarkbackups\bookmarks-2021-10-25_11_dvEXQDGQzGDRp7k8J2Sylg==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilenCaToL\bookmarkbackups\bookmarks-2021-10-28_11_dvEXQDGQzGDRp7k8J2Sylg==.jsonlz4) because it does not exist
+zprofilewCNfO3\\search.json.mozlz4", (void 0)))
+1635167812423	Marionette	INFO	Listening on port 59607
+1635167812703	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilewCNfO3\bookmarkbackups\bookmarks-2021-10-25_11_eufSCE5dRVnxYSv8Lsgp0w==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilewCNfO3\bookmarkbackups\bookmarks-2021-10-28_11_eufSCE5dRVnxYSv8Lsgp0w==.jsonlz4) because it does not exist
+og: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileCJ64i6\bookmarkbackups\bookmarks-2021-10-25_11_InsJxR95X7agKtwMBgWpuw==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileCJ64i6\bookmarkbackups\bookmarks-2021-10-27_11_InsJxR95X7agKtwMBgWpuw==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+og: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofile6uoz4p\bookmarkbackups\bookmarks-2021-10-26.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+\AppData\\Local\\Temp\\rust_mozprofileJ4FCJ6\\search.json.mozlz4", (void 0)))
+1635168366293	Marionette	INFO	Listening on port 51468
+1635168366623	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileJ4FCJ6\bookmarkbackups\bookmarks-2021-10-26_11_ADGip8FlhN8UzmF0YpMUJA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileJ4FCJ6\bookmarkbackups\bookmarks-2021-10-26_11_ADGip8FlhN8UzmF0YpMUJA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileJ4FCJ6\bookmarkbackups\bookmarks-2021-10-28_11_ADGip8FlhN8UzmF0YpMUJA==.jsonlz4) because it does not exist
+ Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileU93mbI\bookmarkbackups\bookmarks-2021-10-26.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileU93mbI\bookmarkbackups\bookmarks-2021-10-28_11_696anO04C9CaDnjs6JZ3Nw==.jsonlz4) because it does not exist
+ for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+rionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofile5vCHml\\search.json.mozlz4", (void 0)))
+1635168389066	Marionette	INFO	Listening on port 51683
+1635168389383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofile6qxG7b"
+*** You are running in headless mode.
+1635169809017	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofile6qxG7b\\search.json.mozlz4", (void 0)))
+1635169810028	Marionette	INFO	Listening on port 50884
+1635169810230	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofileWlzieT"
+*** You are running in headless mode.
+1635170726374	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileWlzieT\\search.json.mozlz4", (void 0)))
+1635170727344	Marionette	INFO	Listening on port 63754
+1635170727652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileWlzieT\bookmarkbackups\bookmarks-2021-10-28_11_YGxqT1i5bSP4RLICh+jt8w==.jsonlz4) because it does not exist
+sa\\AppData\\Local\\Temp\\rust_mozprofile7HolUi\\search.json.mozlz4", (void 0)))
+1635170734595	Marionette	INFO	Listening on port 63821
+1635170734888	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofile7HolUi\bookmarkbackups\bookmarks-2021-10-28_11_p2uNPM9V8UAMpJODYh23pQ==.jsonlz4) because it does not exist
+CompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofile48xOa7\\search.json.mozlz4", (void 0)))
+1635172969765	Marionette	INFO	Listening on port 51268
+1635172970098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofileZULWTt"
+*** You are running in headless mode.
+1635230782502	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileZULWTt\\search.json.mozlz4", (void 0)))
+1635230783415	Marionette	INFO	Listening on port 63264
+1635230783791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileZULWTt\bookmarkbackups\bookmarks-2021-10-28_11_36Hb0kZuKInBDa44FeELfQ==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mozprofileuFGFkA\\search.json.mozlz4", (void 0)))
+1635230791188	Marionette	INFO	Listening on port 63342
+1635230791549	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofileuP0MeB"
+*** You are running in headless mode.
+1635323764136	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileuP0MeB\\search.json.mozlz4", (void 0)))
+1635323765079	Marionette	INFO	Listening on port 53584
+1635323765415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileuP0MeB\bookmarkbackups\bookmarks-2021-10-28_11_3xYwbT6eTvyezRgjnn1E2w==.jsonlz4) because it does not exist
+settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileIp2sy4\\search.json.mozlz4", (void 0)))
+1635323771970	Marionette	INFO	Listening on port 53648
+1635323772247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+al\\Temp\\rust_mozprofileUKjoJ4"
+*** You are running in headless mode.
+1635323879684	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileUKjoJ4\\search.json.mozlz4", (void 0)))
+1635323880696	Marionette	INFO	Listening on port 53734
+1635323880981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+al\\Temp\\rust_mozprofileVRexgL"
+*** You are running in headless mode.
+1635323894388	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileVRexgL\\search.json.mozlz4", (void 0)))
+1635323895329	Marionette	INFO	Listening on port 53801
+1635323895629	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileVRexgL\bookmarkbackups\bookmarks-2021-10-28_11_e3QzwLcyS6s9aHHtP3EZiQ==.jsonlz4) because it does not exist
+settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileLo8bTJ\\search.json.mozlz4", (void 0)))
+1635323918048	Marionette	INFO	Listening on port 53891
+1635323918243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileLo8bTJ\bookmarkbackups\bookmarks-2021-10-28_11_McziWJz4ZuMoZnUoSca3tQ==.jsonlz4) because it does not exist
+settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilegxD1K7\\search.json.mozlz4", (void 0)))
+1635324041286	Marionette	INFO	Listening on port 53973
+1635324041617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+s\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofileS1z5Cd"
+*** You are running in headless mode.
+1635324146511	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileS1z5Cd\\search.json.mozlz4", (void 0)))
+1635324147456	Marionette	INFO	Listening on port 56777
+1635324147766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileS1z5Cd\bookmarkbackups\bookmarks-2021-10-28_11_pa+NwAKd5mkILOlXKfdj9g==.jsonlz4) because it does not exist
+*** You are running in headless mode.
+1635325320111	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileaQe2dq\\search.json.mozlz4", (void 0)))
+1635325321018	Marionette	INFO	Listening on port 49336
+1635325321354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+al\\Temp\\rust_mozprofileZdKWfQ"
+*** You are running in headless mode.
+1635325326458	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileZdKWfQ\\search.json.mozlz4", (void 0)))
+1635325327454	Marionette	INFO	Listening on port 49405
+1635325327679	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1635951684063	geckodriver	INFO	Listening on 127.0.0.1:57723
+1635951687111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofile5oSiLU"
+*** You are running in headless mode.
+1635951687474	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofile5oSiLU\\search.json.mozlz4", (void 0)))
+1635951688516	Marionette	INFO	Listening on port 57733
+1635951688676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofile5oSiLU\bookmarkbackups\bookmarks-2021-11-03_11_OPkV98s7B6e1BQJu7pzaFA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilearWw1P\\search.json.mozlz4", (void 0)))
+1635951695523	Marionette	INFO	Listening on port 57798
+1635951695869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilearWw1P\bookmarkbackups\bookmarks-2021-11-03_11_JgKG3857cBvM1-Vm8vpQWg==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+or("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilenPURGq\\search.json.mozlz4", (void 0)))
+1635951706951	Marionette	INFO	Listening on port 57880
+1635951707182	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ in headless mode.
+1635951763753	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilethr2DA\\search.json.mozlz4", (void 0)))
+1635951764727	Marionette	INFO	Listening on port 57957
+1635951764988	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+96	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileYPeyco\\search.json.mozlz4", (void 0)))
+1635951778503	Marionette	INFO	Listening on port 58025
+1635951778748	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ in headless mode.
+1635951783385	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofile5oGRtM\\search.json.mozlz4", (void 0)))
+1635951784334	Marionette	INFO	Listening on port 58097
+1635951784663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofile5oGRtM\bookmarkbackups\bookmarks-2021-11-03_11_JbfzKv7ZEa4VUrPvy-pxDQ==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+a\\Local\\Temp\\rust_mozprofilemUoeYX\\search.json.mozlz4", (void 0)))
+1635951799086	Marionette	INFO	Listening on port 58178
+1635951799324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilemUoeYX\bookmarkbackups\bookmarks-2021-11-04_11_OXcUaqLwFSsqftea2Asl2g==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+or("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileK4OhMi\\search.json.mozlz4", (void 0)))
+1635951854134	Marionette	INFO	Listening on port 57482
+1635951854491	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileK4OhMi\bookmarkbackups\bookmarks-2021-11-04_11_uvUGSz4cPEhnFNg8usfU2w==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+or("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilem5wIwu\\search.json.mozlz4", (void 0)))
+1635951860295	Marionette	INFO	Listening on port 57566
+1635951860620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilem5wIwu\bookmarkbackups\bookmarks-2021-11-04_11_5i8UZ03-fOccpMXpKSrHZg==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilem5wIwu\bookmarkbackups\bookmarks-2021-11-04_11_5i8UZ03-fOccpMXpKSrHZg==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+aYLh\\search.json.mozlz4", (void 0)))
+1635957694048	Marionette	INFO	Listening on port 50110
+1635957694370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofilehagaqX"
+*** You are running in headless mode.
+1636107005137	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilehagaqX\\search.json.mozlz4", (void 0)))
+1636107006137	Marionette	INFO	Listening on port 52399
+1636107006430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Listening on 127.0.0.1:64043
+1636108295012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofileVBr991"
+*** You are running in headless mode.
+1636108295296	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileVBr991\\search.json.mozlz4", (void 0)))
+1636108296216	Marionette	INFO	Listening on port 64051
+1636108296580	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofileb0BnXX"
+*** You are running in headless mode.
+1636108311668	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileb0BnXX\\search.json.mozlz4", (void 0)))
+1636108312622	Marionette	INFO	Listening on port 64125
+1636108312910	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1636122129985	geckodriver	INFO	Listening on 127.0.0.1:54849
+1636122133047	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofile7DxkB3"
+*** You are running in headless mode.
+1636122133364	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofile7DxkB3\\search.json.mozlz4", (void 0)))
+1636122134378	Marionette	INFO	Listening on port 54861
+1636122134601	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+rust_mozprofileCQVrVg"
+*** You are running in headless mode.
+1636122292156	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileCQVrVg\\search.json.mozlz4", (void 0)))
+1636122293212	Marionette	INFO	Listening on port 55519
+1636122293365	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+O~1.MOS\\AppData\\Local\\Temp\\rust_mozprofilejJAAYf"
+*** You are running in headless mode.
+1636122298366	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilejJAAYf\\search.json.mozlz4", (void 0)))
+1636122299357	Marionette	INFO	Listening on port 55587
+1636122299604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofileGuFCvd"
+*** You are running in headless mode.
+1636123831549	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileGuFCvd\\search.json.mozlz4", (void 0)))
+1636123832877	Marionette	INFO	Listening on port 60715
+1636123833337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1.MOS\\AppData\\Local\\Temp\\rust_mozprofileR4T1G6"
+*** You are running in headle[GFX1-]: R1636124001439	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Te1636124002257	Marionette	INFO	Listening on port 61024
+1636124002724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+iting due to channel error.
+1636621717680	geckodriver	INFO	Listening on 127.0.0.1:63509
+1636621720748	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofilezPt8fZ"
+*** You are running in headless mode.
+1636621721356	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilezPt8fZ\\search.json.mozlz4", (void 0)))
+1636621722586	Marionette	INFO	Listening on port 63519
+1636621722824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+"
+*** You are running in headless mode.
+1636621729130	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileZpKPqq\\search.json.mozlz4", (void 0)))
+1636621730082	Marionette	INFO	Listening on port 63589
+1636621730399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofilerI312w"
+*** You are running in headless mode.
+1636622508880	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilerI312w\\search.json.mozlz4", (void 0)))
+1636622509857	Marionette	INFO	Listening on port 56041
+1636622510153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+"
+*** You are running in headless mode.
+1636622515258	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofile9Jlo8i\\search.json.mozlz4", (void 0)))
+1636622516222	Marionette	INFO	Listening on port 56109
+1636622516491	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+-marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofile22n6Hd"
+*** You are running in headless mode.
+1636623243039	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofile22n6Hd\\search.json.mozlz4", (void 0)))
+1636623243933	Marionette	INFO	Listening on port 56671
+1636623244305	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+1638543088169	geckodriver	INFO	Listening on 127.0.0.1:56829
+1638543091215	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofilevojDYO"
+*** You are running in headless mode.
+1638543091927	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilevojDYO\\search.json.mozlz4", (void 0)))
+1638543093091	Marionette	INFO	Listening on port 56838
+1638543093298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+erCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileOEFmei\\search.json.mozlz4", (void 0)))
+1638543100524	Marionette	INFO	Listening on port 56905
+1638543100782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+1638869262470	geckodriver	INFO	Listening on 127.0.0.1:55394
+1638869265561	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofilemLiptO"
+*** You are running in headless mode.
+1638869266282	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilemLiptO\\search.json.mozlz4", (void 0)))
+1638869267540	Marionette	INFO	Listening on port 55402
+1638869267622	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilemLiptO\bookmarkbackups\bookmarks-2021-12-14_11_d9P0eGkqKwRrFFp1NT50FA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilemLiptO\bookmarkbackups\bookmarks-2021-12-17_11_d9P0eGkqKwRrFFp1NT50FA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+rofilepG46Z7\bookmarkbackups\bookmarks-2021-12-14_11_CYysXufRFiwaHq+9c5xIig==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilepG46Z7\bookmarkbackups\bookmarks-2021-12-17_11_CYysXufRFiwaHq+9c5xIig==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilepG46Z7\bookmarkbackups\bookmarks-2021-12-18_11_CYysXufRFiwaHq+9c5xIig==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileDpBzzV\bookmarkbackups\bookmarks-2021-12-14_11_Dshs1XeMQIvqO-COHS1MGw==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileDpBzzV\bookmarkbackups\bookmarks-2021-12-22_11_Dshs1XeMQIvqO-COHS1MGw==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileEZcHoa\bookmarkbackups\bookmarks-2021-12-19_11_O+w1hoh9eH-uMDbTiHOZPg==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileEZcHoa\bookmarkbackups\bookmarks-2021-12-21_11_O+w1hoh9eH-uMDbTiHOZPg==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileC3FKMC\bookmarkbackups\bookmarks-2021-12-18_11_qqcUibYJN4P6KpjtP-Sb4Q==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileC3FKMC\bookmarkbackups\bookmarks-2021-12-18_11_qqcUibYJN4P6KpjtP-Sb4Q==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ult-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofilevKS0Gl\bookmarkbackups\bookmarks-2021-12-21_11_Fplag2XmpS4UKhYdU5TMSQ==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+n.mozlz4", (void 0)))
+1639513410658	Marionette	INFO	Listening on port 59393
+1639513411007	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ing default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileiJ1JWM\\search.json.mozlz4", (void 0)))
+1639559682240	Marionette	INFO	Listening on port 58115
+1639559682505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileiJ1JWM\bookmarkbackups\bookmarks-2021-12-22_11_76h8AL49LGosVEDGmo84hg==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+46027	Marionette	INFO	Listening on port 50900
+1639563346272	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileCDhquc\bookmarkbackups\bookmarks-2021-12-19_11_Z+O7AcEo-iKL9xRp0MUnuA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileCDhquc\bookmarkbackups\bookmarks-2021-12-22_11_Z+O7AcEo-iKL9xRp0MUnuA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ult-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileMXNREo\bookmarkbackups\bookmarks-2021-12-22_11_K5iSnWsxTwFUuSs8X-Fn0w==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+n.mozlz4", (void 0)))
+1639585069054	Marionette	INFO	Listening on port 53770
+1639585069387	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileaslTaE\bookmarkbackups\bookmarks-2021-12-18_11_QT5lctFJvYEEdvvQecZy1Q==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\jacopo.mossa\AppData\Local\Temp\rust_mozprofileaslTaE\bookmarkbackups\bookmarks-2021-12-18_11_QT5lctFJvYEEdvvQecZy1Q==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Extensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+1642587098133	geckodriver	INFO	Listening on 127.0.0.1:61538
+1642587101193	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofile3ehKFG"
+*** You are running in headless mode.
+1642587101758	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofile3ehKFG\\search.json.mozlz4", (void 0)))
+1642587103243	Marionette	INFO	Listening on port 61546
+1642587103350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:61602
+1642587108156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofiledBmbxg"
+*** You are running in headless mode.
+1642587108491	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofiledBmbxg\\search.json.mozlz4", (void 0)))
+1642587109416	Marionette	INFO	Listening on port 61617
+1642587109723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:61827
+1642587295456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofilePha3ZL"
+*** You are running in headless mode.
+1642587295741	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofilePha3ZL\\search.json.mozlz4", (void 0)))
+1642587296682	Marionette	INFO	Listening on port 61836
+1642587297013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:62310
+1642587481052	geckodriver	INFO	Listening on 127.0.0.1:62319
+1642587484136	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofileCmoxYS"
+*** You are running in headless mode.
+1642587484459	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileCmoxYS\\search.json.mozlz4", (void 0)))
+1642587485510	Marionette	INFO	Listening on port 62332
+1642587485698	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:62386
+1642587490321	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\JACOPO~1.MOS\\AppData\\Local\\Temp\\rust_mozprofileGtNatw"
+*** You are running in headless mode.
+1642587490618	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jacopo.mossa\\AppData\\Local\\Temp\\rust_mozprofileGtNatw\\search.json.mozlz4", (void 0)))
+1642587491581	Marionette	INFO	Listening on port 62414
+1642587491872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:62599
