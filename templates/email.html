@@ -19,7 +19,9 @@
 <body>
 
     <div class="container">
-        
+        {% for k,v in data.items() %}
+        <p><b>{{k}}</b>: {{v}}</p>
+        {% endfor %}
     </div>
 
 

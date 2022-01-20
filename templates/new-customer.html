@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Accept-CH" content="Viewport-Width, Width" />
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="static/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="robots" content="noindex">
+
+    <!--    BOOTSTRAP   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <link href="static/css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    
+    <title>ICA Imballaggi - Nuova anagrafica</title>
+
+    <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.6.0/dist/cookieconsent.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.6.0/dist/cookieconsent.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="static/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="static/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/img/favicon/manifest.json">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>s
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5DHS2L2LNR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-5DHS2L2LNR');
+    </script>
+
+    <style>
+        .cont {
+            padding-left: 30%;
+            padding-right: 30%;
+        }
+        .cont-footer {
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+
+        .input-field {
+            border: 0px;
+            border-radius: 4px !important;
+            flex: 1;
+            padding: 12px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+
+        .input-block {
+            padding: 25px;
+            background-color: #e9ecef;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        @media only screen 
+        and (min-device-width: 768px) 
+        and (max-device-width: 1024px) 
+        and (orientation: portrait) 
+        and (-webkit-min-device-pixel-ratio: 1) {
+            .cont {
+                padding-left: 12%;
+                padding-right: 12%;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            .cont {
+                padding-left: 4%;
+                padding-right: 4%;
+            }           
+
+        }
+
+
+    </style>
+
+    
+</head>
+<body>
+
+
+<div id='loader-wrap'>
+    <div id='loader'>
+        <div class='loader-block'>
+            <h5 style="margin-bottom: 20px" id="loader-text"></h5>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+        </div>
+    </div>
+</div>
+
+<div style="display: block; padding-top: 8%;" class="container-fluid">
+
+    <div class="row cont">
+        <div class="col-md-12">
+            <h2>Anagrafica Aziendale</h2>
+            <h3>Al fine di velocizzare l’inserimento dell’anagrafica nel database aziendale vi invitiamo a fornire le seguenti informazioni. </h3>
+        </div>
+    </div>
+
+    <div class="row cont" style="margin-top: 5%">
+        <form class="col-md-12" id="anagrafica-form">      
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Ragione Sociale*</label>
+                <input required name="Ragione sociale" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Indirizzo Sede Legale*</label>
+                <input required name="Indirizzo Sede Legale" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>            
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Città Sede Legale*</label>
+                <input required name="Citta Sede Legale" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>            
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >CAP Sede Legale*</label>
+                <input required name="CAP Sede Legale" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>            
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Partita IVA*</label>
+                <input required name="Partita IVA" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Codice Fiscale*</label>
+                <input required name="Codice Fiscale" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Codice Univoco*</label>
+                <input required name="Codice Univoco" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >PEC*</label>
+                <input required name="PEC" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Indirizzo di consegna (se diverso dalla sede legale)</label>
+                <input name="Indirizzo Consegna" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Referente 1 (Nome - Cognome - Ruolo - Mail - Telefono Diretto)*</label>
+                <input required name="Referente 1" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Referente 2 (Nome - Cognome - Ruolo - Mail - Telefono Diretto) </label>
+                <input  name="Referente 2" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Referente 3 (Nome - Cognome - Ruolo - Mail - Telefono Diretto) </label>
+                <input name="Referente 3" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>
+            <h4 style="margin-bottom: 20px; margin-top: 40px;">Dati bancari</h4>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Banca*</label>
+                <input required name="Banca" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>            
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Agenzia*</label>
+                <input required name="Agenzia" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>      
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >IBAN*</label>
+                <input required name="IBAN" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>
+            <h4 style="margin-bottom: 20px; margin-top: 40px;">Preferenze di consegna</h4>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Indicare lunghezza massima dei camion*</label>
+                <select required name="Lunghezza max Camion" class="input-field"  >
+                    <option selected disabled value="">Seleziona</option>
+                    <option value="Bilico 15 metri">Bilico 15 metri</option>
+                    <option value="Motrice 12 metri">Motrice 12 metri</option>
+                    <option value="Motrice corta 10 metri">Motrice corta 10 metri</option>
+                    <option value="Motrice corta 8 metri">Motrice corta 8 metri</option>
+                    <option value="Telonato 35 Quintali 6 metri">Telonato 35 Quintali 6 metri</option>
+                </select>
+                
+            </div>                      
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Modalità di scarico*</label>
+                <select required name=">Modalità di scarico" class="input-field"  >
+                    <option selected disabled value="">Seleziona</option>
+                    <option value="Muletto">Muletto</option>
+                    <option value="Transpallet a disposizione del cliente">Transpallet a disposizione del cliente</option>
+                    <option value="Transpallet a cura di ICA IMBALLAGGI">Motrice corta 10 metri</option>
+                </select>
+                
+            </div>    
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Orari di scarico*</label>
+                <input required name="Orari di scarico" class="input-field" type="text" placeholder="Inserisci">
+                
+            </div>        
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Preferenze sulla tipologia di bancali*</label>
+                <select required name="Preferenze bancali" class="input-field"  >
+                    <option selected disabled value="">Seleziona</option>
+                    <option value="Generici">Generici</option>
+                    <option value="Epal">Epal</option>
+                </select>
+            </div>  
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Bancali fatturati (€ 4,5 cad per i generici, € 8 per gli EPAL) oppure da restituirsi alla pari?*</label>
+                <select required name="Bancali fatturati" class="input-field"  >
+                    <option selected disabled value="">Seleziona</option>
+                    <option value="Fatturati">Fatturati</option>
+                    <option value="Restituiti alla pari">Restituiti alla pari</option>
+                </select>
+            </div>        
+            <button id="submit" type="submit" style="width: 100%;" class="btn btn-primary" >Conferma</button>
+        </form>
+ 
+    </div>
+    
+    <div class="row foot footer-desktop dark cont-footer" >
+
+        <div class="col-xl-6 col-md-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2866.4926963105377!2d8.190635616182208!3d44.07318313318799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d25eb42b0364fd%3A0x298a287912295f1b!2sI.c.a.%20Imballaggi%20Srl!5e0!3m2!1sit!2sit!4v1622447813420!5m2!1sit!2sit"  height="400px" width="100%" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+
+        
+        <div class="col-xl-6 col-md-12">
+            <div class="row">
+                <div class="col-xl-6 col-md-6">
+                    <div class="col-xl-12 footer-ica">
+                        <img alt="ICA Imballaggi" loading="lazy" src="static/img/ica-logo-white.png" style="width: 30%; margin-bottom: 20px;"  alt="">
+                        <p>© Copyright 2021 ICA Imballaggi.</p>
+                    </div>
+
+                    <div class="col-xl-12 footer-location"  id="contatti-anchor">
+                        <p>Regione Rapalline, 17031 Albenga SV</p>
+                        <a href="tel:+39018221006"><p>+39 0182 21006</p></a>
+                        <a  href="mailto:info@icaimballaggi.it" title="Email ICA Imballaggi"><p>info@icaimballaggi.it</p></a>
+
+                        <div style="margin-top: 30px;" class="footer-pages d-flex flex-column">
+                            <a ><u>Prodotti</u></a>
+                            <a><u>Privacy Policy</u></a>
+                            <a><u>Termini e condizioni</u></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+    </div>
+
+    <div onclick="scrolltop()" id="scroll-top-btn">
+        <i style="color: white ;" class="fas fa-chevron-up"></i>
+    </div>
+
+</div>
+<script>
+    window.addEventListener('load', function () {
+
+        var cookieconsent = initCookieConsent();
+
+        cookieconsent.run({
+            current_lang: 'it',
+            page_scripts: true,
+            autorun: true,
+
+            onAccept: function () {
+                // do something ...
+            },
+
+            languages: {
+                en: {
+                    consent_modal: {
+                        title: 'Utilizziamo i cookie',
+                        description: 'I cookie verranno utilizzati per migliorare la tua esperienzia',
+                        primary_btn: {
+                            text: 'Accetta',
+                            role: 'accept_all'  //'accept_selected' or 'accept_all'
+                        },
+                        secondary_btn: {
+                            text: 'Rifiuta',
+                            role: 'accept_necessary'   //'settings' or 'accept_necessary'
+                        }
+                    },
+                    settings_modal: {
+                        title: 'Impostazioni',
+                        save_settings_btn: 'Salva Impostazioni',
+                        accept_all_btn: 'Accetta tutti',
+                        reject_all_btn: 'Rifiuta tutti', // optional, [v.2.5.0 +]
+                        close_btn_label: 'Chiudi',
+                        blocks: [
+                            {
+                                title: 'Cookie usage',
+                                description: 'Your cookie usage disclaimer'
+                            }, {
+                                title: 'Strictly necessary cookies',
+                                description: 'Category description ... ',
+                                toggle: {
+                                    value: 'necessary',
+                                    enabled: false,
+                                    readonly: true
+                                }
+                            }, {
+                                title: 'Analytics cookies',
+                                description: 'Category description ...',
+                                toggle: {
+                                    value: 'analytics',
+                                    enabled: false,
+                                    readonly: false
+                                }
+                            },
+                        ]
+                    }
+                }
+            }
+        });
+    });
+</script>
+
+
+<script>
+
+
+window.onload = function() {
+    
+    animateCSS('#loader-wrap', 'fadeOut').then((message) => {
+        $("#loader-wrap").hide()
+    });
+};
+
+
+const animateCSS = (element, animation, prefix = 'animate__') =>
+  // We create a Promise and return it
+  new Promise((resolve, reject) => {
+    const animationName = `${prefix}${animation}`;
+    const node = document.querySelector(element);
+
+    node.classList.add(`${prefix}animated`, animationName);
+
+    // When the animation ends, we clean the classes and resolve the Promise
+    function handleAnimationEnd(event) {
+      event.stopPropagation();
+      node.classList.remove(`${prefix}animated`, animationName);
+      resolve('Animation ended');
+    }
+
+    node.addEventListener('animationend', handleAnimationEnd, {once: true});
+  });
+
+    function scrolltop(){
+        window.scrollTo(0, 0);
+    }
+
+
+    $("#anagrafica-form").on( "submit", function( event ) {
+        event.preventDefault()
+        var form = $("#anagrafica-form").serialize()
+
+        console.log(form)
+        animateCSS('#loader-wrap', 'fadeIn').then((message) => {
+            $("#loader-text").text = "Sto registrando l'anagrafica"
+            $("#loader-wrap").show()
+            console.log("SSSSSSSSSSSSSSSS")
+        });
+        $.post(window.location.origin + "/registra-anagrafica",
+            form,
+            function(data, status){
+                animateCSS('#loader-wrap', 'fadeOut').then((message) => {
+                    $("#loader-text").text = "Sto registrando l'anagrafica"
+                    $("#loader-wrap").hide()
+            });
+        });
+
+    });
+</script>
+
+
+</body>
+</html>
