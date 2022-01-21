@@ -57,12 +57,13 @@ def angrafica_template():
 def registerAnagrafica():
 
     data = request.form
+    if data.request.form["tk"] != "":
+        print("bot")
+    else:
+        send_mail(["jacopo@icaimballaggi.it"],"Nuova anagrafica ICA", "Nuova angrafica ICA","email", data=data)
 
-    print(data.to_dict())
-    
-    
 
-    send_mail(["jacopo@icaimballaggi.it"],"Nuova anagrafica ICA", "Nuova angrafica ICA","email", data=data )
+    
 
     return jsonify(msg = "Anagrafica creata correttamente"),200
 

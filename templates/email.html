@@ -13,6 +13,10 @@
             height: 100vh;
         }
 
+        .up {
+            text-transform: uppercase;
+        }
+
     </style>
     
 </head>
@@ -20,7 +24,7 @@
 
     <div class="container">
         {% for k,v in data.items() %}
-        <p><b>{{k}}</b>: {{v}}</p>
+        <p class="up"><b>{{k}}</b>: {{v}}</p>
         {% endfor %}
     </div>
 
