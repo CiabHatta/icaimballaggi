@@ -615,7 +615,7 @@ const animateCSS = (element, animation, prefix = 'animate__') =>
         animateCSS('#loader-wrap', 'fadeIn').then((message) => {
             
 
-            $.post(window.location.origin + "/registra-anagrafica",
+            $.post("/registra-anagrafica",
             form,
             function(data, status){
                 
@@ -628,7 +628,7 @@ const animateCSS = (element, animation, prefix = 'animate__') =>
                     redirectHome()
                     
                 });
-        });
+            });
 
         });
 

@@ -79,6 +79,35 @@ a {
      
 }
 
+.response-feedback {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #319b76;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 32px rgb(0 0 0 / 11%);
+    border-radius: 4px;
+    
+}
+
+.input-field {
+    border: 0px;
+    border-radius: 4px !important;
+    flex: 1;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.footer-desktop{
+    background-color: #dee2e6;
+}
+
 .swiper-button-next, .swiper-button-prev{
     color: #2D4858 !important;
     font-weight: 700 !important;
@@ -322,22 +351,25 @@ a {
 }
 
 .btn-secondary {
-    background-color: white;
+    
+    background-color: #C8B198;
     border-radius: 2px;
     font-size: 20px;
     letter-spacing: 1px;
     font-weight: 400;
     padding: 12px 18px;
     border: 0;
-    color: #2D4858;
+    color: white;
 }
 
 .btn-secondary:hover {
-    background-color: #C8B198;
+    
+    background-color: white;
+    color: #2D4858;
 }
 
 .header-bg {
-    background-image: url("../img/slider/ica.jpg");
+    background-image: url("../img/slider/ICA.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -696,6 +728,7 @@ a {
     color: white !important;
     box-sizing: border-box;
     padding: 30px;
+    z-index: 4000;
   }
 
   .close {
@@ -745,6 +778,10 @@ a {
         z-index: 10;
     }
 
+    .footer-tablet {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
 
@@ -756,6 +793,14 @@ a {
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
+
+    .footer-tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
 
     .solution-section {
         padding-left: 6% !important;

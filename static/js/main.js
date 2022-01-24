@@ -146,3 +146,20 @@ function scrollFunction() {
 function scrolltop(){
     window.scrollTo(0, 0);
 }
+
+$("#contact-form").on( "submit", function( event ) {
+    event.preventDefault()
+    var form = $("#contact-form").serialize()
+
+    $.post("/new-contact",
+    form,
+    function(data, status){
+        $(".response-feedback").show()
+        $("#response-text").html(data.msg)
+        setTimeout(() => {
+            $(".response-feedback").hide()
+        }, 4000);
+    });
+
+
+});

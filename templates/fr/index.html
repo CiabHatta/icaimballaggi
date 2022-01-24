@@ -51,7 +51,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon/favicon-16x16.png">
     <link rel="manifest" href="static/img/favicon/manifest.json">
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5DHS2L2LNR"></script>
     <script>
@@ -65,6 +65,12 @@
     
 </head>
 <body>
+    <div class="response-feedback">
+        <div class="d-flex align-items-center">
+            <i class="fas fa-check-circle"></i>
+            <p class="flex-1" style="margin-left: 15px;" id="response-text"></p>
+        </div>
+    </div>
 <div class="navbar fixed-top navbar-expand-lg navbar-light  bpx-siz pd-cont" id="navbar" style="height: 100px; ">
     <div class="container-fluid mobile-head-nav" style="height: inherit;">
         <a style="height: inherit;" class="navbar-brand" href="#" id="header-logo"><img alt="ICA Imballaggi" loading="lazy" id="header-logo-img" src="static/img/ica-logo.png" style="height: 98%; padding: 12px"  alt=""></a>
@@ -359,14 +365,15 @@
                     </div>
                 </div>
 
-                <div class="swiper-scrollbar custom-swiper-scrollbar" ></div>    
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>   
             </div>
         </div>
     </div>
 
 
 
-    <div class="row balance-mg solution-section" style=" padding-top: 40px; padding-bottom: 80px; background-color: #D8D8D8;">
+    <div class="row balance-mg solution-section" style=" padding-top: 40px; padding-bottom: 80px; background-color: #F0F0F0">
 
         <div class="row mg-bt-80p"  style="padding-right: 0px">
             <div class="col-md-12 text-center">
@@ -570,11 +577,49 @@
 
     -->
 
-
-
+    <div class="row balance-mg dark" style="padding-bottom: 40px; padding-top: 40px; margin-top: 80px;">
+        <div class="col-md-7 d-flex flex-column justify-content-center">
+            <h2>Avez-vous besoin de plus d'informations?</h2>
+            <p>Remplissez le formulaire ci-dessous, vous serez bientôt recontacté par l'un de nos spécialistes</p>
+        </div>
+        <div class="col-md-5">
+            <div >
+                <form class="d-flex flex-column" id="contact-form">
+                    <div class="row no-pd">
+                        <input name="tk" type="hidden">
+                        <input name="Paese" type="hidden" value="Francia">
+                        <div class="d-flex flex-column col-md-6">
+                            <label class="mt-2 mb-2" for="Nome">Prénom*</label>
+                            <input class="input-field" type="text" name="Nome" required placeholder="Insérez votre Prénom">
+                        </div>
+                        <div class="d-flex flex-column col-md-6">
+                            <label class="mt-2 mb-2" for="Cognome">Nom*</label>
+                            <input class="input-field" type="text" name="Cognome" required placeholder="Insérez votre Nom">
+                        </div>
+                        <div class="d-flex flex-column col-md-6">
+                            <label class="mt-2 mb-2" for="Azienda">Agence*</label>
+                            <input class="input-field" type="text" name="Azienda" required placeholder="Entrez le nom de votre agence">
+                        </div>
+                        <div class="d-flex flex-column col-md-6">
+                            <label class="mt-2 mb-2" for="Numero di telefono">Téléphone*</label>
+                            <input class="input-field" type="text" name="Numero di telefono" required placeholder="Veuillez entrer votre numéro de téléphone">
+                            
+                        </div>
+                        <div class="d-flex flex-column col-md-12">
+                            <label class="mt-2 mb-2" for="Ulteriori informazionio">Plus d'informations</label>
+                            <textarea class="input-field"  name="Ulteriori informazioni" placeholder="Entrez plus d'informations"></textarea>
+                        </div>
+                        <div class="col-md-12 d-flex flex-column">
+                            <button class="btn btn-secondary align-self-center mt-4" type="submit">Demande de contact</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+  
+    </div>
     
-    
-    <div class="row foot footer-desktop dark balance-mg" >
+    <div class="row foot footer-desktop balance-mg" >
 
         <div class="col-xl-6 col-md-12">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2866.4926963105377!2d8.190635616182208!3d44.07318313318799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d25eb42b0364fd%3A0x298a287912295f1b!2sI.c.a.%20Imballaggi%20Srl!5e0!3m2!1sit!2sit!4v1622447813420!5m2!1sit!2sit"  height="400px" width="100%" style="border:0;" allowfullscreen="" loading="lazy">
@@ -583,10 +628,10 @@
 
         
         <div class="col-xl-6 col-md-12">
-            <div class="row">
+            <div class="row footer-tablet">
                 <div class="col-xl-6 col-md-6">
                     <div class="col-xl-12 footer-ica">
-                        <img alt="ICA Imballaggi" loading="lazy" src="static/img/ica-logo-white.png" style="width: 30%; margin-bottom: 20px;"  alt="">
+                        <img alt="ICA Imballaggi" loading="lazy" src="static/img/ica-logo.png" style="width: 30%; margin-bottom: 20px;"  alt="">
                         <p>© Copyright 2021 ICA Imballaggi.</p>
                     </div>
 

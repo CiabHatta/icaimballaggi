@@ -65,12 +65,28 @@ def registerAnagrafica():
     if "tk" in data != "" and data["tk"] != "":
         print("bot")
     else:
-        send_mail(["jacopo@icaimballaggi.it"],"Nuova anagrafica ICA", "Nuova angrafica ICA","email", data=data)
-
-
-    
+        try:
+            send_mail(["jacopo@icaimballaggi.it"],"Nuova anagrafica ICA", "Nuova angrafica ICA","email", data=data)
+        except:
+            print("errore con la mail")
+            return jsonify(msg = "Errore con la registrazione dell'anagrafica"),200
 
     return jsonify(msg = "Anagrafica creata correttamente"),200
+    
+@app.post('/new-contact')
+def newContact():
+
+    data = request.form
+    if "tk" in data != "" and data["tk"] != "":
+        print("bot")
+    else:
+        try:
+            send_mail(["jacopo@icaimballaggi.it"],"Nuova richiesta di contatto dal sito " + data["Paese"], "Nuova richiesta di contatto dal sito " + data["Paese"],"email", data=data)
+        except:
+            print("errore con la mail")
+            return jsonify(msg = "Errore con la registrazione del contatto"),200
+
+    return jsonify(msg = "Contatto inviato con successo, verrai ricontattato a breve"),200
 
 if __name__ == '__main__':
     app.run(debug=True,host="localhost", port=3000)

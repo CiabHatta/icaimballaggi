@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js" integrity="sha512-BABFxitBmYt44N6n1NIJkGOsNaVaCs/GpaJwDktrfkWIBFnMD6p5l9m+Kc/4SLJSJ4mYf+cstX98NYrsG/M9ag==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.css" integrity="sha512-ZpcaZ031fgI0ryEPFCdjUms80bt0oV453+GxoI0+Xa4rYj7FQRXy1Lsi7BSkvlpiJcq3iYdxZX5/oDHhj/uomw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
     
     <title>ICA Imballaggi</title>
 
@@ -65,6 +67,12 @@
     
 </head>
 <body>
+<div class="response-feedback">
+    <div class="d-flex align-items-center">
+        <i class="fas fa-check-circle"></i>
+        <p class="flex-1" style="margin-left: 15px;" id="response-text"></p>
+    </div>
+</div>
 <div class="navbar fixed-top navbar-expand-lg navbar-light  bpx-siz pd-cont" id="navbar" style="height: 100px; ">
     <div class="container-fluid mobile-head-nav" style="height: inherit;">
         <a style="height: inherit;" class="navbar-brand" href="#" id="header-logo"><img alt="ICA Imballaggi" loading="lazy" id="header-logo-img" src="static/img/ica-logo.png" style="height: 98%; padding: 12px"  alt=""></a>
@@ -378,7 +386,7 @@
 
 
 
-    <div class="row balance-mg solution-section" style=" padding-top: 40px; padding-bottom: 80px; background-color: #D8D8D8;">
+    <div class="row balance-mg solution-section" style=" padding-top: 40px; padding-bottom: 80px; background-color: #F0F0F0;">
 
         <div class="row mg-bt-80p"  style="padding-right: 0px">
             <div class="col-md-12 text-center">
@@ -646,12 +654,53 @@
         <div class="col-xl-12 col-md-12" style="margin-top: 30px;">
             <a href="https://blog.rapidpack.it/" target="_blank" class="text-center"><h4>Sfoglia tutti gli articoli ...</h4></a>
 
-        </div>
+        </div> 
     </div>
 
     
-    
-    <div class="row foot footer-desktop dark balance-mg" >
+    <div class="row balance-mg dark" style="padding-bottom: 40px; padding-top: 40px;">
+        <div class="col-md-7 d-flex flex-column justify-content-center">
+            <h2>Hai bisogno di ulteriori informazioni?</h2>
+            <p>Compila il modulo seguente e a breve verrai ricontattato da uno dei nostri specialisti</p>
+        </div>
+        <div class="col-md-5">
+            <div >
+                <form class="d-flex flex-column" id="contact-form">
+                    <div class="row no-pd">
+                        <input name="tk" type="hidden">
+                        <input name="Paese" type="hidden" value="Italia">
+                        <div class="d-flex flex-column col-md-6">
+                            <label class="mt-2 mb-2" for="Nome">Nome*</label>
+                            <input class="input-field" type="text" name="Nome" required placeholder="Inserisci il tuo nome">
+                        </div>
+                        <div class="d-flex flex-column col-md-6">
+                            <label class="mt-2 mb-2" for="Cognome">Cognome*</label>
+                            <input class="input-field" type="text" name="Cognome" required placeholder="Inserisci il tuo cognome">
+                        </div>
+                        <div class="d-flex flex-column col-md-6">
+                            <label class="mt-2 mb-2" for="Azienda">Azienda*</label>
+                            <input class="input-field" type="text" name="Azienda" required placeholder="Inserisci il nome della tua azienda">
+                        </div>
+                        <div class="d-flex flex-column col-md-6">
+                            <label class="mt-2 mb-2" for="Numero di telefono">Telefono*</label>
+                            <input class="input-field" type="tel" name="Numero di telefono" required placeholder="Inserisci il tuo numero di telefono">
+                            
+                        </div>
+                        <div class="d-flex flex-column col-md-12">
+                            <label class="mt-2 mb-2" for="Ulteriori informazionio">Ulteriori informazioni</label>
+                            <textarea class="input-field"  name="Ulteriori informazioni" placeholder="Inserisci ulteriori informazioni"></textarea>
+                        </div>
+                        <div class="col-md-12 d-flex flex-column">
+                            <button class="btn btn-secondary align-self-center mt-4" type="submit">Richiedi contatto</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+  
+    </div>
+
+    <div class="row foot footer-desktop balance-mg" >
 
         <div class="col-xl-6 col-md-12">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2866.4926963105377!2d8.190635616182208!3d44.07318313318799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d25eb42b0364fd%3A0x298a287912295f1b!2sI.c.a.%20Imballaggi%20Srl!5e0!3m2!1sit!2sit!4v1622447813420!5m2!1sit!2sit"  height="400px" width="100%" style="border:0;" allowfullscreen="" loading="lazy">
@@ -660,10 +709,10 @@
 
         
         <div class="col-xl-6 col-md-12">
-            <div class="row">
+            <div class="row footer-tablet">
                 <div class="col-xl-6 col-md-6">
                     <div class="col-xl-12 footer-ica">
-                        <img alt="ICA Imballaggi" loading="lazy" src="static/img/ica-logo-white.png" style="width: 30%; margin-bottom: 20px;"  alt="">
+                        <img alt="ICA Imballaggi" loading="lazy" src="static/img/ica-logo.png" style="width: 30%; margin-bottom: 20px;"  alt="">
                         <p>© Copyright 2021 ICA Imballaggi.</p>
                     </div>
 
