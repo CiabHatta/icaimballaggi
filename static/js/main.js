@@ -9,6 +9,10 @@ var swiper = new Swiper(".swiper-container", {
       el: ".swiper-pagination",
       clickable: true,
     },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
     scrollbar: {
         el: '.swiper-scrollbar',
         draggable: true,
@@ -131,14 +135,10 @@ function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("navbar").style.backgroundColor = "white";
         document.getElementById("navbar").style.boxShadow = "0px 6px 8px rgba(0,0,0,0.111)";
-        document.getElementById("navbar").style.fontSize = "19px";
-        document.getElementById("header-logo-img").style.height = "100%";
         document.getElementById("scroll-top-btn").style.display= "flex";
     } else {
         document.getElementById("navbar").style.backgroundColor = "transparent";
         document.getElementById("navbar").style.boxShadow= "none";
-        document.getElementById("navbar").style.fontSize = "18px";
-        document.getElementById("header-logo-img").style.height = "98%";
         document.getElementById("scroll-top-btn").style.display= "none";
         
     }

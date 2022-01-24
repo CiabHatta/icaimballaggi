@@ -79,6 +79,11 @@ a {
      
 }
 
+.swiper-button-next, .swiper-button-prev{
+    color: #2D4858 !important;
+    font-weight: 700 !important;
+}
+
 .dropdown-toggle {
     cursor: pointer;
 }
