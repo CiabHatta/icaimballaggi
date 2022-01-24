@@ -73,11 +73,23 @@ a {
 
 }
 
-
 a {
     cursor:pointer;
     color: inherit;
      
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+.dropdown-toggle::after {
+    vertical-align: -webkit-baseline-middle !important;
+}
+
+.lang-selector {
+    width: 30px;
+    vertical-align: -webkit-baseline-middle;
 }
 
 .secondary-color {

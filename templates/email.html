@@ -24,7 +24,9 @@
 
     <div class="container">
         {% for k,v in data.items() %}
-        <p class="up"><b>{{k}}</b>: {{v}}</p>
+            {% if k != 'tk' %}
+                <p class="up"><b>{{k}}</b>: {{v}}</p>
+            {% endif %}
         {% endfor %}
     </div>
 

@@ -13,6 +13,7 @@ driver.get("https://blog.rapidpack.it/blog/")
 app = Flask(__name__)
 app.secret_key='ffdbbbf98ijtpoijg'
 
+supported_languages = ["fr", "it"]
 
 app.config.update(
     MAIL_SERVER = "mail.arredorealistico.com" ,
@@ -27,8 +28,6 @@ app.config.update(
 mail = Mail()
 mail.init_app(app)
 
-#bot = telepot.Bot('1553708912:AAFkzmIxccZBUn3sBC7Gzv-6GtiObAKIjMw')
-
 def send_mail(to,subject,text,template, **kwargs):
     msg = Message(subject=subject,sender='jacopo@arredorealistico.com', recipients=to)
     msg.body = text
@@ -37,16 +36,22 @@ def send_mail(to,subject,text,template, **kwargs):
 
 
 @app.get("/")
-def Home():
+@app.get("/<language>")
+def Home(language = "it"):
     fetched_posts = driver.find_elements_by_class_name('hitmag-post')
     posts = []
     for post in fetched_posts: 
         new_post = {"category":post.find_element_by_class_name("cat-links").text,"datetime":post.find_element_by_class_name("posted-on").text,"description":post.find_element_by_class_name("entry-summary").text,"link":post.find_element_by_class_name("entry-summary").find_element_by_tag_name("a").get_attribute("href"),"image":post.find_element_by_class_name("wp-post-image").get_attribute("src")}
         posts.append(new_post)
 
-    print(posts)
+    #lang = request.accept_languages.best_match(supported_languages)
+    #if lang not in supported_languages:
+    #    language = "it"
+    
+    print(language)
+    return render_template( language + "/index.html", posts = posts)
+        
 
-    return render_template("index.html", posts = posts)
 
 @app.get('/registra-anagrafica')
 def angrafica_template():
@@ -57,7 +62,7 @@ def angrafica_template():
 def registerAnagrafica():
 
     data = request.form
-    if data.request.form["tk"] != "":
+    if "tk" in data != "" and data["tk"] != "":
         print("bot")
     else:
         send_mail(["jacopo@icaimballaggi.it"],"Nuova anagrafica ICA", "Nuova angrafica ICA","email", data=data)
