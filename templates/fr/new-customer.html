@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Accept-CH" content="Viewport-Width, Width" />
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="static/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="robots" content="noindex">
+
+    <!--    BOOTSTRAP   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <link href="static/css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    
+    <title>ICA Imballaggi - Nouveau registre</title>
+
+    <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.6.0/dist/cookieconsent.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.6.0/dist/cookieconsent.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="static/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="static/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/img/favicon/manifest.json">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5DHS2L2LNR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-5DHS2L2LNR');
+    </script>
+
+    <style>
+
+        label {
+            margin-bottom: 20px;
+        }
+
+        .header-sec {
+            padding-top: 4%;
+            padding-bottom: 4%;
+            background-color: #2D4858;
+            color: white;
+        }
+
+        .success-checkmark{
+            position: absolute;
+        }
+
+        .cont {
+            padding-left: 30%;
+            padding-right: 30%;
+        }
+        .cont-footer {
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+
+        .input-field {
+            border: 0px;
+            border-radius: 4px !important;
+            flex: 1;
+            padding: 12px;
+            margin-bottom: 10px;
+            background-color: white;
+        }
+
+
+        .input-block {
+            padding: 25px;
+            background-color: #F0F0F0;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        #loader-wrap {
+            justify-content: center;
+            align-items: center;
+        }
+
+        #loader-text {
+            transition: 0.8s;
+            margin-bottom: -10%;
+            text-align: center;
+        }
+        /** * Extracted from: SweetAlert * Modified by: Istiak Tridip */
+        .success-checkmark {
+            width: 80px;
+            height: 115px;
+            margin: 0 auto;
+        }
+        .success-checkmark .check-icon {
+            width: 80px;
+            height: 80px;
+            position: relative;
+            border-radius: 50%;
+            box-sizing: content-box;
+            border: 4px solid #4caf50;
+        }
+        .success-checkmark .check-icon::before {
+            top: 3px;
+            left: -2px;
+            width: 30px;
+            transform-origin: 100% 50%;
+            border-radius: 100px 0 0 100px;
+        }
+        .success-checkmark .check-icon::after {
+            top: 0;
+            left: 30px;
+            width: 60px;
+            transform-origin: 0 50%;
+            border-radius: 0 100px 100px 0;
+            animation: rotate-circle 4.25s ease-in;
+        }
+        .success-checkmark .check-icon::before, .success-checkmark .check-icon::after {
+            content: '';
+            height: 100px;
+            position: absolute;
+            background: #fff;
+            transform: rotate(-45deg);
+        }
+        .success-checkmark .check-icon .icon-line {
+            height: 5px;
+            background-color: #4caf50;
+            display: block;
+            border-radius: 2px;
+            position: absolute;
+            z-index: 10;
+        }
+        .success-checkmark .check-icon .icon-line.line-tip {
+            top: 46px;
+            left: 14px;
+            width: 25px;
+            transform: rotate(45deg);
+            animation: icon-line-tip 0.75s;
+        }
+        .success-checkmark .check-icon .icon-line.line-long {
+            top: 38px;
+            right: 8px;
+            width: 47px;
+            transform: rotate(-45deg);
+            animation: icon-line-long 0.75s;
+        }
+        .success-checkmark .check-icon .icon-circle {
+            top: -4px;
+            left: -4px;
+            z-index: 10;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            position: absolute;
+            box-sizing: content-box;
+            border: 4px solid rgba(76, 175, 80, .5);
+        }
+        .success-checkmark .check-icon .icon-fix {
+            top: 8px;
+            width: 5px;
+            left: 26px;
+            z-index: 1;
+            height: 85px;
+            position: absolute;
+            transform: rotate(-45deg);
+            background-color: #fff;
+        }
+        @keyframes rotate-circle {
+            0% {
+                transform: rotate(-45deg);
+            }
+            5% {
+                transform: rotate(-45deg);
+            }
+            12% {
+                transform: rotate(-405deg);
+            }
+            100% {
+                transform: rotate(-405deg);
+            }
+        }
+        @keyframes icon-line-tip {
+            0% {
+                width: 0;
+                left: 1px;
+                top: 19px;
+            }
+            54% {
+                width: 0;
+                left: 1px;
+                top: 19px;
+            }
+            70% {
+                width: 50px;
+                left: -8px;
+                top: 37px;
+            }
+            84% {
+                width: 17px;
+                left: 21px;
+                top: 48px;
+            }
+            100% {
+                width: 25px;
+                left: 14px;
+                top: 45px;
+            }
+        }
+        @keyframes icon-line-long {
+            0% {
+                width: 0;
+                right: 46px;
+                top: 54px;
+            }
+            65% {
+                width: 0;
+                right: 46px;
+                top: 54px;
+            }
+            84% {
+                width: 55px;
+                right: 0px;
+                top: 35px;
+            }
+            100% {
+                width: 47px;
+                right: 8px;
+                top: 38px;
+            }
+        }
+
+        .logo {
+            width: 50%;
+            margin-bottom: 30px;
+        }
+        
+        @media only screen 
+        and (min-device-width: 768px) 
+        and (max-device-width: 1024px) 
+        and (orientation: portrait) 
+        and (-webkit-min-device-pixel-ratio: 1) {
+        
+            .cont {
+                padding-left: 12%;
+                padding-right: 12%;
+            }
+
+            #loader-text {
+                margin-bottom: -25%;
+            }
+
+            .header-sec {
+                padding-top: 8%;
+                padding-bottom: 8%;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            .cont {
+                padding-left: 4%;
+                padding-right: 4%;
+            }         
+              
+            #loader-text {
+                margin-bottom: -40%;
+            }
+            .header-sec {
+                padding-top: 14%;
+                padding-bottom: 14%;
+            }
+        }
+
+
+    </style>
+
+    
+</head>
+<body>
+
+<div id='loader-wrap'>
+    <h5 id="loader-text"></h5>
+    <div id='loader'>
+        <div class='loader-block'>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+            <div class='loader-item'></div>
+        </div>
+    </div>
+</div>
+
+<div style="display: block;" class="container-fluid">
+
+    <div class="row cont header-sec">
+        <div class="col-md-12 text-center">
+            <img class="logo" src="static/img/ica-logo-white.png" alt="">
+            <h2>Registre des entreprises</h2>
+            <p>Afin d'accélérer l'insertion des données personnelles dans la base de données de l'entreprise, nous vous invitons à fournir les informations suivantes.</p>
+        </div>
+    </div>
+
+    <div class="row cont" style="margin-top: 5%">
+        <form class="col-md-12" id="anagrafica-form">     
+            <h4 style="margin-bottom: 20px; margin-top: 40px;">Données Generales</h4> 
+            <input type="hidden" name="tk" />
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Raison sociale*</label>
+                <input required name="Ragione sociale" class="input-field" type="text" placeholder="Raison sociale">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Adresse du siège social*</label>
+                <input required name="Indirizzo Sede Legale" class="input-field" type="text" placeholder="Adresse du siège social">
+                
+            </div>            
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Ville*</label>
+                <input required name="Citta Sede Legale" class="input-field" type="text" placeholder="Ville">
+                
+            </div>            
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Code postal*</label>
+                <input required name="CAP Sede Legale" class="input-field" type="text" placeholder="Code postal">
+                
+            </div>            
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Numéro de TVA*</label>
+                <input required name="Partita IVA" class="input-field" type="text" placeholder="Numéro de TVA">
+                
+            </div>    
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Numéro de téléphone 1*</label>
+                <input required name="Telefono" class="input-field" type="text" placeholder="Numéro de téléphone 1">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Numéro de téléphone (autre)</label>
+                <input  name="Telefono 2" class="input-field" type="text" placeholder="Numéro de téléphone (autre)">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Site internet</label>
+                <input name="Site internet" class="input-field" type="text" placeholder="Site internet">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Adresse mail de la comptabilité pour l’envoi des factures *</label>
+                <input required name="PEC" class="input-field" type="text" placeholder="Adresse mail de la comptabilité">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Adresse du centre opérationnel (si différent du siège social)</label>
+                <input name="Indirizzo di consegna " class="input-field" type="text" placeholder="Adresse du centre opérationnel">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Interlocuteur 1 (Nom - Prénom - Fonction - Courriel - Téléphone) *</label>
+                <input required name="Referente 1" class="input-field" type="text" placeholder="Interlocuteur 1">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Interlocuteur 2 (Nom - Prénom - Fonction - Courriel - Téléphone) </label>
+                <input  name="Referente 2" class="input-field" type="text" placeholder="Interlocuteur 2">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Interlocuteur 3 (Nom - Prénom - Fonction - Courriel - Téléphone) </label>
+                <input  name="Referente 3" class="input-field" type="text" placeholder="Interlocuteur 3">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Interlocuteur 4 (Nom - Prénom - Fonction - Courriel - Téléphone) </label>
+                <input  name="Referente 4" class="input-field" type="text" placeholder="Interlocuteur 4">
+                
+            </div>
+            <h4 style="margin-bottom: 20px; margin-top: 40px;">Préférences de livraison</h4>                
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Accès semi ou motrice 19T ?*</label>
+                <div>
+                    <input required type="radio" name="Accesso semi motrice 19T" value="Oui">
+                    <label ">Oui</label>
+                </div>
+                <div>
+                    <input type="radio" name="Accesso semi motrice 19T"  value="Non">
+                    <label >Non</label>
+                </div>
+
+            </div>                      
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Nécessité hayon ?*</label>
+                <div>
+                    <input required type="radio" name="Necessita sponda?" value="Oui">
+                    <label >Oui</label>
+                </div>
+                <div>
+                    <input type="radio" name="Necessita sponda?"  value="Non">
+                    <label >Non</label>
+                </div>
+            </div>                     
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Disponibilité de chariot élévateur*</label>
+                <div>
+                    <input required type="radio" name="Disponibilita carrello elevatore" value="Oui">
+                    <label >Oui</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="Disponibilita carrello elevatore"  value="Non">
+                    <label >Non</label>
+                </div>
+
+           
+            </div>           
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Disponibilité de transpalette*</label>
+                <div>
+                    <input required type="radio" name="Disponibilita transpallet" value="Oui">
+                    <label >Oui</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="Disponibilita transpallet"  value="Non">
+                    <label >Non</label>
+                </div>
+
+           
+            </div>       
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Restrictions mesures des palettes? (encombrement max à respecter)*</label>
+                <div>
+                    <input required type="radio" name="Restrizioni misure pallet?" value="Oui">
+                    <label ">Oui</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="Restrizioni misure pallet?"  value="Non">
+                    <label >Non</label>
+                </div>
+
+           
+            </div>         
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Si vous avez des restrictions d'encombrement des palettes à respecter, merci de nous l'indiquer ci-dessous</label>
+                <input required name="Restrizioni misure pallet" class="input-field" type="text" placeholder="Restrictions">
+                
+            </div>
+            <div class="d-flex justify-content-center input-block flex-column">
+                <label >Palettes EUROPE impératives ?</label>
+                <div>
+                    <input type="radio" name="Pallet Europa?" value="Oui">
+                    <label ">Oui</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="Pallet Europa?"  value="Non">
+                    <label >Non</label>
+                </div>
+
+           
+            </div>              
+    
+            <button id="submit" type="submit" style="width: 100%;" class="btn btn-primary" >Confirmé</button>
+        </form>
+ 
+    </div>
+    
+    <div class="row foot footer-desktop dark cont-footer" >
+
+        <div class="col-xl-6 col-md-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2866.4926963105377!2d8.190635616182208!3d44.07318313318799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d25eb42b0364fd%3A0x298a287912295f1b!2sI.c.a.%20Imballaggi%20Srl!5e0!3m2!1sit!2sit!4v1622447813420!5m2!1sit!2sit"  height="400px" width="100%" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+
+        
+        <div class="col-xl-6 col-md-12">
+            <div class="row">
+                <div class="col-xl-6 col-md-6">
+                    <div class="col-xl-12 footer-ica">
+                        <img alt="ICA Imballaggi" loading="lazy" src="static/img/ica-logo-white.png" style="width: 30%; margin-bottom: 20px;"  alt="">
+                        <p>© Copyright 2021 ICA Imballaggi.</p>
+                    </div>
+
+                    <div class="col-xl-12 footer-location"  id="contatti-anchor">
+                        <p>Regione Rapalline, 17031 Albenga SV</p>
+                        <a href="tel:+39018221006"><p>+39 0182 21006</p></a>
+                        <a  href="mailto:info@icaimballaggi.it" title="Email ICA Imballaggi"><p>info@icaimballaggi.it</p></a>
+
+                        <div style="margin-top: 30px;" class="footer-pages d-flex flex-column">
+                            <a ><u>Solutions</u></a>
+                            <a><u>Traitement des données personnelles </u></a>
+                            <a><u>Conditions générales</u></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+    </div>
+
+    <div onclick="scrolltop()" id="scroll-top-btn">
+        <i style="color: white ;" class="fas fa-chevron-up"></i>
+    </div>
+
+</div>
+<script>
+    window.addEventListener('load', function () {
+
+        var cookieconsent = initCookieConsent();
+
+        cookieconsent.run({
+            current_lang: 'it',
+            page_scripts: true,
+            autorun: true,
+
+            onAccept: function () {
+                // do something ...
+            },
+
+            languages: {
+                en: {
+                    consent_modal: {
+                        title: 'Utilizziamo i cookie',
+                        description: 'I cookie verranno utilizzati per migliorare la tua esperienzia',
+                        primary_btn: {
+                            text: 'Accetta',
+                            role: 'accept_all'  //'accept_selected' or 'accept_all'
+                        },
+                        secondary_btn: {
+                            text: 'Rifiuta',
+                            role: 'accept_necessary'   //'settings' or 'accept_necessary'
+                        }
+                    },
+                    settings_modal: {
+                        title: 'Impostazioni',
+                        save_settings_btn: 'Salva Impostazioni',
+                        accept_all_btn: 'Accetta tutti',
+                        reject_all_btn: 'Rifiuta tutti', // optional, [v.2.5.0 +]
+                        close_btn_label: 'Chiudi',
+                        blocks: [
+                            {
+                                title: 'Cookie usage',
+                                description: 'Your cookie usage disclaimer'
+                            }, {
+                                title: 'Strictly necessary cookies',
+                                description: 'Category description ... ',
+                                toggle: {
+                                    value: 'necessary',
+                                    enabled: false,
+                                    readonly: true
+                                }
+                            }, {
+                                title: 'Analytics cookies',
+                                description: 'Category description ...',
+                                toggle: {
+                                    value: 'analytics',
+                                    enabled: false,
+                                    readonly: false
+                                }
+                            },
+                        ]
+                    }
+                }
+            }
+        });
+    });
+</script>
+
+
+<script>
+
+function redirectHome(){
+    var counter = 3
+    setInterval(() => {
+        counter = counter -1 
+        if (counter == 0){
+            
+            window.location.href = "https://www.icaimballaggi.it/fr";
+        }
+    }, 1000);
+}
+
+
+window.onload = function() {
+    
+    animateCSS('#loader-wrap', 'fadeOut').then((message) => {
+        $("#loader-wrap").hide()
+    });
+};
+
+
+const animateCSS = (element, animation, prefix = 'animate__') =>
+  // We create a Promise and return it
+  new Promise((resolve, reject) => {
+    const animationName = `${prefix}${animation}`;
+    const node = document.querySelector(element);
+
+    node.classList.add(`${prefix}animated`, animationName);
+
+    // When the animation ends, we clean the classes and resolve the Promise
+    function handleAnimationEnd(event) {
+      event.stopPropagation();
+      node.classList.remove(`${prefix}animated`, animationName);
+      resolve('Animation ended');
+    }
+
+    node.addEventListener('animationend', handleAnimationEnd, {once: true});
+  });
+
+    function scrolltop(){
+        window.scrollTo(0, 0);
+    }
+
+
+    $("#anagrafica-form").on( "submit", function( event ) {
+        event.preventDefault()
+        var form = $("#anagrafica-form").serialize()
+        $("#loader-wrap").css('display', 'flex')
+        $("#loader-text").append("J'enregistre le registre")
+
+        animateCSS('#loader-wrap', 'fadeIn').then((message) => {
+            
+
+            $.post("/enregistrer-enregistrement",
+            form,
+            function(data, status){
+                
+                animateCSS('#loader', 'fadeOut').then((message) => {
+                    $("#loader").hide()
+                    $("#loader-wrap").html('<h5 id="loader-text"></h5><div class="success-checkmark"><div class="check-icon"><span class="icon-line line-tip"></span><span class="icon-line line-long"></span><div class="icon-circle"></div><div class="icon-fix"></div></div></div>')
+                    $(".check-icon").show();
+                    $("#loader-text").append("")
+                    $("#loader-text").append("Données personnelles enregistrées correctement. <br> Vous serez redirigé vers la page d'accueil sous peu")
+                    redirectHome()
+                    
+                });
+            });
+
+        });
+
+    });
+</script>
+
+
+</body>
+</html>

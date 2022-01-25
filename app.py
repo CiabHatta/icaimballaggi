@@ -19,10 +19,10 @@ app.config.update(
     MAIL_SERVER = "mail.arredorealistico.com" ,
     MAIL_PORT = 465,
     MAIL_USERNAME = "jacopo@arredorealistico.com",
-    MAIL_PASSWORD = "Ciuchino1998",
+    MAIL_PASSWORD = "pwd.123-jm",
     MAIL_USE_SSL = True,
     MAIL_USE_TLS=False,
-    MAIL_DEFAULT_SENDER = "jacopo@arredorealistico.com",
+    MAIL_DEFAULT_SENDER = "jacopo@arredorealistico.com"
 )
 
 mail = Mail()
@@ -56,7 +56,12 @@ def Home(language = "it"):
 @app.get('/registra-anagrafica')
 def angrafica_template():
 
-    return render_template("new-customer.html")
+    return render_template("it/new-customer.html")
+
+@app.get('/enregistrer-enregistrement')
+def angrafica_template_fr():
+
+    return render_template("fr/new-customer.html")
 
 @app.post('/registra-anagrafica')
 def registerAnagrafica():
@@ -65,11 +70,22 @@ def registerAnagrafica():
     if "tk" in data != "" and data["tk"] != "":
         print("bot")
     else:
-        try:
-            send_mail(["jacopo@icaimballaggi.it"],"Nuova anagrafica ICA", "Nuova angrafica ICA","email", data=data)
-        except:
-            print("errore con la mail")
-            return jsonify(msg = "Errore con la registrazione dell'anagrafica"),200
+        send_mail(["jacopo@icaimballaggi.it"],"Nuova anagrafica ICA IT", "Nuova angrafica ICA IT","email", data=data)
+
+        print("errore con la mail")
+        return jsonify(msg = "Errore con la registrazione dell'anagrafica"),200
+
+    return jsonify(msg = "Anagrafica creata correttamente"),200
+
+@app.post('/enregistrer-enregistrement')
+def registerAnagrafica_fr():
+
+    data = request.form
+    if "tk" in data != "" and data["tk"] != "":
+        print("bot")
+    else:
+        send_mail(["jacopo@icaimballaggi.it"],"Nuova anagrafica ICA FR", "Nuova angrafica ICA FR","email", data=data)
+
 
     return jsonify(msg = "Anagrafica creata correttamente"),200
     
