@@ -79,6 +79,10 @@ a {
      
 }
 
+.footer-text {
+    font-size: 16px !important;
+}
+
 .response-feedback {
     display: none;
     position: fixed;
@@ -873,6 +877,11 @@ a {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
+
+    .footer-text {
+        font-size: 14px !important;
+        margin-bottom: 10px;
+    }
 
     .evidenza-title {
         text-align: center;
