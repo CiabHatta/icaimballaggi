@@ -620,9 +620,59 @@
 
     -->
 
+    <!-- <div class="row mg-bt-80p blog-headline" style="margin-top: 120px;">
+        <div class="col-md-12">
+            <h2>Ultimi articoli del Blog</h2>
+        </div>
+    </div> -->
+    <div class="row mg-bt-80p">
+        {% for post in posts %}
+            <div class="col-xl-6 col-md-12">
+                <div class="card mb-3 no-border grey" style="max-width: 100%;">
+                    <div class="row g-0 blog-article" onclick="window.open('{{post["link"]}}', '_blank')">
+                    <div class="col-md-4 blog-img" style="background-image:url({{post['image']}});">
+                    </div>
+                    <div class="col-md-8 content-blog">
+                        <div class="card-body">
+                        <p class="card-text"><small><nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href='{{post["link"]}}'>Blog</a></li>
+                            </ol>
+                        </nav></small></p>
+                        <h5 class="card-title line-clamp">{{post["description"]}}.</h5>
+
+                        <div class="card mb-3 no-border grey" style="max-width: 100%;">
+                            <div class="row g-0">
+                            <!-- <div class="col-md-2 d-flex align-items-center author-img" >
+                                 <div class="blog-img-author" style="background-image: url(static/img/blog/author_placeholder.jpeg); height: auto;">
+                                </div> 
+                            </div> -->
+                            <div class="col-md-12 author">
+                                <div class="card-body no-pd">
+                                
+                                
+                                <!-- <h6 class="card-text">Autore Articolo.</h6> -->
+                                <p class="card-text"><small>{{post["datetime"]}}</small></p>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        <div class="col-xl-12 col-md-12" style="margin-top: 30px;">
+            <a href="#" target="_blank" class="text-center"><h4>Sfoglia tutti gli articoli ...</h4></a>
+
+        </div> 
+    </div>
 
     
-    <div class="row balance-mg dark" style="margin-top: 40px; padding-bottom: 40px; padding-top: 40px;">
+    <div class="row balance-mg dark" style="padding-bottom: 40px; padding-top: 40px;">
         <div class="col-md-7 d-flex flex-column justify-content-center">
             <h2>Hai bisogno di ulteriori informazioni?</h2>
             <p>Compila il modulo seguente e a breve verrai ricontattato da uno dei nostri specialisti</p>
@@ -691,60 +741,6 @@
                         <a ><u>Prodotti</u></a>
                         <a><u>Privacy Policy</u></a>
                         <a><u>Termini e condizioni</u></a>
-                    </div>
-
-                </div>   
-                <div class="col-xl-4 col-md-4 footer-ica d-flex justify-content-center flex-column">
-                    <img class="footer-logo" src="static/img/loghi/fsc.png" alt="">
-                    <img class="footer-logo" src="static/img/loghi/iso.png" alt="">
-                    <img class="footer-logo" src="static/img/loghi/confindustria.png" alt="">
-
-                </div>
-
-            </div>
-
-        </div>
-
-        
-    </div>
-
-    <div onclick="scrolltop()" id="scroll-top-btn">
-        <i style="color: white ;" class="fas fa-chevron-up"></i>
-    </div>
-
-</div>
-<script src="static/js/main.js"></script>
-
-
-</body>
-</a>
-                    </div>
-
-                </div>   
-                <div class="col-xl-4 col-md-4 footer-ica d-flex justify-content-center flex-column">
-                    <img class="footer-logo" src="static/img/loghi/fsc.png" alt="">
-                    <img class="footer-logo" src="static/img/loghi/iso.png" alt="">
-                    <img class="footer-logo" src="static/img/loghi/confindustria.png" alt="">
-
-                </div>
-
-            </div>
-
-        </div>
-
-        
-    </div>
-
-    <div onclick="scrolltop()" id="scroll-top-btn">
-        <i style="color: white ;" class="fas fa-chevron-up"></i>
-    </div>
-
-</div>
-<script src="static/js/main.js"></script>
-
-
-</body>
-</a>
                     </div>
 
                 </div>   
