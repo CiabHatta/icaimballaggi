@@ -38,6 +38,37 @@ body {
 
 }
 
+.footer-logo {
+    width: 33.3%;
+}
+
+#testimonial-container {
+    overflow: hidden;
+    width: 70%;
+    margin-top: 10px;
+  }
+
+.slick-track {
+    display: flex !important;
+    align-items: center;
+}
+
+.testimonial-image {
+    margin-right: 20px;
+}
+
+.animation {
+  width: auto;
+  height: 100px;
+  font-size: 0px;
+}
+.animation div {
+  display: inline-block;
+  width: auto;
+  float: none;
+  padding: 0 10px;
+}
+
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
 }
@@ -877,6 +908,14 @@ a {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
+    #testimonial-container {
+        width: 100%;
+    }
+
+    .footer-logo {
+        width: 50%;
+        align-self: center;
+    }
 
     .footer-text {
         font-size: 14px !important;

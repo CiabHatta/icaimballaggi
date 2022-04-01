@@ -163,3 +163,16 @@ $("#contact-form").on( "submit", function( event ) {
 
 
 });
+
+$('#testimonial-container').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 3000,
+    pauseOnHover: false,
+    cssEase: 'linear',
+    dots: false,
+    prevArrow: false,
+    nextArrow: false
+  });

@@ -4,10 +4,10 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 from flask_mail import Mail,Message
 
-options = Options()
+'''options = Options()
 options.headless = True
 driver = webdriver.Firefox(options=options, executable_path="driver/geckodriver")
-driver.get("https://blog.rapidpack.it/blog/")
+driver.get("https://blog.rapidpack.it/blog/")'''
 
 
 app = Flask(__name__)
@@ -34,7 +34,7 @@ def send_mail(to,subject,text,template, **kwargs):
     msg.html = render_template(template+'.html', **kwargs)
     mail.send(msg)
 
-
+'''
 @app.get("/")
 @app.get("/<language>")
 def Home(language = "it"):
@@ -49,7 +49,19 @@ def Home(language = "it"):
     #    language = "it"
     
     print(language)
-    return render_template( language + "/index.html", posts = posts)
+    return render_template( language + "/index.html", posts = posts)'''
+
+@app.get("/")
+@app.get("/<language>")
+def Home(language = "it"):
+
+    lang = request.accept_languages.best_match(supported_languages)
+    if lang not in supported_languages:
+        language = "it"
+
+    print(language)
+    
+    return render_template( language + "/index.html")
         
 
 
