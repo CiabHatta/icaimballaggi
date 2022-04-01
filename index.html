@@ -53,6 +53,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon/favicon-16x16.png">
     <link rel="manifest" href="static/img/favicon/manifest.json">
 
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
 
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5DHS2L2LNR"></script>
@@ -169,6 +172,17 @@
             <h1 style=" margin-top: 15px; margin-bottom: 20px; letter-spacing: -1px;" class="header-headlines">La più completa offerta di imballaggi ed espositori in cartone.</h1>
             <h4 style=" padding-bottom: 10px;" class="descr">Progettiamo e realizziamo imballaggi e soluzioni in cartone interamente personalizzate, con prodotti specifici per ogni settore, grazie a 6 differenti tipologie di stampa.</h4>
             <!-- <a href="#evidenza" class="btn btn btn-primary header-btn">Le nostre soluzioni</a> -->
+            <div class="d-flex "></div>
+            <p style="margin-top: 40px !important"> <b>Dal 1984 abbiamo aiutato 2500+ aziende tra cui:</b> </p>
+            <div id="testimonial-container">
+                <img class="testimonial-image" src="static/img/testimonials/arkopharma.png">
+                <img class="testimonial-image" src="static/img/testimonials/barilla.png">
+                <img class="testimonial-image" src="static/img/testimonials/carrefour.png">
+                <img class="testimonial-image" src="static/img/testimonials/colussi.png">
+                <img class="testimonial-image" src="static/img/testimonials/coop.png">
+                <img class="testimonial-image" src="static/img/testimonials/noberasco.png">
+                <img class="testimonial-image" src="static/img/testimonials/ufoplast.png">
+              </div>
         </div>
         <div class="col-md-6 d-flex justify-content-end slider-cont">
             <!--<div id="header-slider" class="carousel slide" data-bs-ride="carousel">
@@ -606,11 +620,11 @@
 
     -->
 
-    <div class="row mg-bt-80p blog-headline" style="margin-top: 120px;">
+    <!-- <div class="row mg-bt-80p blog-headline" style="margin-top: 120px;">
         <div class="col-md-12">
             <h2>Ultimi articoli del Blog</h2>
         </div>
-    </div>
+    </div> -->
     <div class="row mg-bt-80p">
         {% for post in posts %}
             <div class="col-xl-6 col-md-12">
@@ -710,7 +724,7 @@
         
         <div class="col-xl-6 col-md-12 d-flex align-items-center">
             <div class="row footer-tablet">
-                <div class="col-xl-6 col-md-6 footer-ica">
+                <div class="col-xl-4 col-md-4 footer-ica">
                     <img alt="ICA Imballaggi" loading="lazy" src="static/img/ica-logo.png" style="width: 30%; margin-bottom: 20px;"  alt="">
                     <p class="footer-text">© Copyright 2021 ICA Imballaggi.</p>
                     <p class="footer-text">Sede legale: Via B. Bosco 57/9 16121 Genova</p>
@@ -719,7 +733,7 @@
                     <p class="footer-text">P. IVA: 01527780991</p>
 
                 </div>                
-                <div class="col-xl-6 col-md-6 footer-ica d-flex justify-content-center flex-column">
+                <div class="col-xl-4 col-md-4 footer-ica d-flex justify-content-center flex-column">
                     <h5 class="mb-4">Contatti</h5>
                     <a href="tel:+39018221006"><p class="footer-text">+39 0182 21006</p></a>
 
@@ -728,6 +742,12 @@
                         <a><u>Privacy Policy</u></a>
                         <a><u>Termini e condizioni</u></a>
                     </div>
+
+                </div>   
+                <div class="col-xl-4 col-md-4 footer-ica d-flex justify-content-center flex-column">
+                    <img class="footer-logo" src="static/img/loghi/fsc.png" alt="">
+                    <img class="footer-logo" src="static/img/loghi/iso.png" alt="">
+                    <img class="footer-logo" src="static/img/loghi/confindustria.png" alt="">
 
                 </div>
 
